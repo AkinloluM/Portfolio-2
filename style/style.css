@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 2rem;
+    background-color: rgb(48, 136, 187);
+    color: white;
+}
+
+li {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: rgb(209, 209, 209);
+}
+
+.about, .work, .contact {
+    display: flex;
+    margin-top: 25px;
+}
+
+.left {
+    width: 25%;
+    text-align: center;
+}
+
+.right {
+    width: 65%;
+}
+
+.right ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+footer {
+    background-color: rgb(48, 136, 187);
+    text-align: center;
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
