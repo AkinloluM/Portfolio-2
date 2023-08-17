@@ -12,6 +12,32 @@ header {
     color: white;
 }
 
+.project {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+    padding: 20px; 
+}
+
+.project-row {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid green;
+    padding: 20px; 
+    width: 100%; 
+}
+.project-column {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid blue;
+    flex: 1;
+}
+
+.project-image {
+    width: 100%; 
+    object-fit: cover;
+}
+
 li {
     list-style-type: none;
     margin-left: 15px;
